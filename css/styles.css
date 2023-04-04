@@ -1,0 +1,250 @@
+/*nav-bar*/
+.cont {
+  background-color: red;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cont #title {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+}
+
+.main-menu {
+  background-color: red;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.main-menu li {
+  list-style: none;
+  display: inline;
+}
+
+.main-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.3rem;
+}
+
+.main-menu a:hover {
+  background-color: whitesmoke;
+  color: red;
+  border: 2px solid #aaa;
+}
+
+/*figure*/
+figure {
+  margin: 5rem auto;
+  background-color: bisque;
+  padding: 10px;
+  width: 60%;
+  border-radius: 0.5rem;
+}
+
+figure img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+figure #img-caption {
+  margin: 15px 0 5px 0;
+}
+
+/* Seccion Tributo */
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.headline {
+  background-color: tomato;
+  border: 0.5rem solid red;
+  border-style: groove;
+}
+
+/* Fundacion */
+#tributo {
+  width: 65vw;
+  margin: auto;
+  background-color: bisque;
+  border-radius: 0.5rem;
+}
+
+#tributo #fundacion {
+  margin: 1rem;
+  text-align: center;
+  border-bottom: solid 3px gray;
+}
+
+#tributo #p-histo {
+  margin: 0 1.5rem;
+}
+
+/* Plantilla 2022 */
+#plantilla2022 {
+  width: 90vw;
+  margin: 5rem auto;
+  border: solid 2px whitesmoke;
+  border-radius: 0.5rem;
+}
+
+#plantilla2022 #plantilla-title {
+  background-color: tomato;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+#plantilla2022 .box-plantilla {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#plantilla2022 .plantilla1 {
+  background-color: red;
+  padding: 0.3rem;
+  flex-grow: 1;
+}
+
+#plantilla2022 .plantilla2 {
+  background-color: white;
+  padding: 0.3rem;
+  flex-grow: 1;
+}
+
+li {
+  list-style: none;
+}
+
+/* Imagenes de Historicos */
+.jugadoreshistoricos {
+  width: 90vw;
+  margin: auto;
+}
+
+#historicos {
+  background-color: tomato;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.box-historicos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box-historicos figcaption {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.box-historicos .jugador {
+  border-radius: 50%;
+  width: 600px;
+  height: 200px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+.box-container .caja1 {
+  width: 30vw;
+  background-color: tomato;
+  text-align: center;
+  font-weight: bold;
+  color: whitesmoke;
+  margin: 0.5rem;
+}
+
+.box-container .caja2 {
+  width: 30vw;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  color: tomato;
+  margin: 0.5rem;
+}
+
+/* Titulos */
+.campeonatos {
+  width: 90vw;
+  margin: auto;
+}
+
+.titulos {
+  background-color: tomato;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  margin-top: 2rem;
+}
+
+table {
+  width: 80vw;
+  margin: auto;
+  border: 3px solid white;
+}
+
+table thead {
+  background-color: tomato;
+  color: whitesmoke;
+  font-size: 1.3rem;
+}
+
+table th {
+  padding: 0.5rem;
+  border-bottom: 0.3rem solid lightgray;
+}
+
+table .win1 {
+  background-color: white;
+  font-weight: bold;
+  height: 3rem;
+}
+
+table .win2 {
+  background-color: tomato;
+  font-weight: bold;
+  height: 3rem;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
